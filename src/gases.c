@@ -9,6 +9,8 @@
 
 #include "chmconst.h"
 
+void libError(char libraryName[], char functionName[], char errorText[]);
+
 // Output value
 double res;
 
